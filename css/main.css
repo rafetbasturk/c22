@@ -283,9 +283,10 @@ footer .contact {
           align-items: center;
 }
 
-footer .contact p {
+footer .contact a {
+  color: white;
+  text-decoration: none;
   font-size: 1.4rem;
-  margin: 0;
 }
 
 footer .social {
@@ -526,6 +527,9 @@ footer .attribution a:hover {
   }
   footer form small {
     bottom: -2rem;
+  }
+  footer .contact a {
+    font-size: 1rem;
   }
   footer .social {
     -ms-grid-column: 1;
